@@ -223,10 +223,10 @@ Adaptado de Yudina _et al._ [-@YUDINA20221] \label{fig:aggregates}]("..\assets\a
 Além do efeito na agregação do solo, o preparo do solo afeta a rugosidade da superfície
 [@VAZQUEZ20101; @ZHANG20141]. Como mencionado em seção anterior, a rugosidade da superfície é um dos
 fatores mais determinantes no desenvolvimento de sulcos [@ROMKENS20021] (Figura \ref{fig:drainage}).
-Como consequência, estudos mostram claramente a maior propensão à formação de sulcos em solos arados
-(Figura \ref{fig:tillage}). Zhao _et al._ [-@ZHAO20181] observou que o preparo do solo em linhas de
-contorno ou em sulcos diminui inicialmente o escoamento superficial; porém, favorece a formação de
-sulcos, que intensificam o processo erosivo.
+Estudos mostram claramente a maior propensão à formação de sulcos em solos arados (Figura
+\ref{fig:tillage}). Zhao _et al._ [-@ZHAO20181] observou que o preparo do solo em linhas de contorno
+ou em sulcos diminui inicialmente o escoamento superficial; porém, favorece a formação de sulcos,
+que intensificam o processo erosivo.
 
 ![Efeito de diferentes tipos de preparo do solo na formação de sulcos. CT = plantio em linha; RT =
 plantio em sulcos; SS = superfície plana. Adaptado de Zhao _et al._ [-@ZHAO20181]
