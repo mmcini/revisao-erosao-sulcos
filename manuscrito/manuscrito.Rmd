@@ -292,7 +292,7 @@ complixidade das redes [@ZHANG20161; @BEWKET20031; @BERGER20101; @QIN20181; @RAN
 Estes são apenas alguns dos muitos parâmetros testados para modelar a formação, desenvolvimento e
 perda de solo causada pelos sulcos.
 
-## Tecnologias para a medição
+## Tecnologias para a medição e mapeamento de sulcos
 
 A medição dos diversos parâmetros pode ser realizada por diversos métodos: dos mais simples e fáceis
 de operar, aos mais tecnologicamente avançados, de custo maior. Dentre os mais simples pode-se citar
@@ -319,8 +319,8 @@ seja por aerofotogrametria ou por veículos aéreos não tripulados (VANTs) [@EL
 especificamente, possuem a vantagem de serem flexíveis, podendo sobreavoar à alturas variáveis, a
 depender da necessidade. São altamente precisos e podem cobrir grandes áreas em pouco tempo.
 Malinowski _el al._ [-@MALINOWSKI20221] utilizou modelos digitais de elevação medidos através de
-VANTs com 1 cm$^2% de resolução espacial. Em conjunto com os dados altimétricos, utilizou os modelos
-_Random Forest_ e _knoledge-based_ (regras criadas manualmente por especialistas) para estimar
+VANTs com 1 cm$^2$ de resolução espacial. Em conjunto com os dados altimétricos, utilizou os modelos
+_Random Forest_ e _knowledge-based_ (regras criadas manualmente por especialistas) para estimar
 parâmetros morfológicos dos sulcos, obtendo ótimos resultados de validação (Figura \ref{fig:uav}).
 Mas possuem, também, as limitações de custo [@OU20211]. São tecnologias práticas, porém com custo
 mais elevado que as tradicionais.
@@ -329,9 +329,17 @@ mais elevado que as tradicionais.
 Classificação _knowledge-based_; b) classificação por _Random Forest_; c) imagem aérea obtida pelo
 VANT. Adaptado de Malonowski _et al._ [-@MALINOWSKI20221]. \label{fig:uav}]("..\assets\uav.jpg")
 
-# Temporario
+# Evolução de trabalhos sobre erosão em sulcos
 
 No estudo de Knowler _et al._ [-@KNOWLER20071], os autores mencionam que poucos na literatura usavam
 o nome "agricultura conservacionista" quanto o estudo em questão fora publicado, em 2007. Contudo,
 comparando-se 2007 e o presente ano, trabalhos com as palavras-chave "conservation agriculture"
 saltaram de aproximadamente 1000 para mais de 8000 artigos segundo o portal _Web of Science_.
+
+```{r}
+library(tidyverse, verbose = F)
+
+read_delim("../data/data_rill_erosion.txt", delim = "\t")
+
+```
+
