@@ -327,19 +327,62 @@ mais elevado que as tradicionais.
 
 ![Uso de veículo aéreo não tripulado (VANT) no mapeamento e classificação de sulcos. a)
 Classificação _knowledge-based_; b) classificação por _Random Forest_; c) imagem aérea obtida pelo
-VANT. Adaptado de Malonowski _et al._ [-@MALINOWSKI20221]. \label{fig:uav}]("..\assets\uav.jpg")
+VANT. Adaptado de Malonowski _et al._ [-@MALINOWSKI20221].
+\label{fig:uav}]("..\assets\uav.jpg"){width=85%}
 
 # Evolução de trabalhos sobre erosão em sulcos
 
+Os solos são cruciais para a vida humana, sendo os responsáveis por serviços ecossistêmicos como:
+produçãod e fibras, alimento e biomassa, filtragem e armazenamento da água, habitat para a flora e
+fauna, fonte de materiais primários, alicerce da construção civil, além de herança cultural,
+carregando artefatos e traços históricos da humanidade [@AKSOY20171]. A degradação do solo por
+erosão impede o solo de realizar seu papel, imapctando negativamente a humanidade que dele depende
+[@POESEN20181]. Notóriamente, principalmente devido à intensificação da produção agrícola, a
+preocupação com a manutenção da saúde do solo vem crescendo nos últimos anos.
+
 No estudo de Knowler _et al._ [-@KNOWLER20071], os autores mencionam que poucos na literatura usavam
-o nome "agricultura conservacionista" quanto o estudo em questão fora publicado, em 2007. Contudo,
-comparando-se 2007 e o presente ano, trabalhos com as palavras-chave "conservation agriculture"
-saltaram de aproximadamente 1000 para mais de 8000 artigos segundo o portal _Web of Science_.
+o nome "agricultura conservacionista" quando o estudo em questão fora publicado, em 2007. Contudo,
+comparando-se 2007 e o presente ano, trabalhos com as palavras-chave _"Conservation agriculture"_
+saltaram de aproximadamente 1000 para mais de 8000 artigos segundo o portal _Web of Science_
+(Figura \ref{fig:publications}).
 
-```{r}
+```{r, publications, echo = F, warning = F, message = F, out.width = "90%", fig.cap = "Publicações dos últimos 30 anos com as palavras-chave: \"Rill erosion\" e \"Conservation agriculture\" contidas no banco de dados Web of Science."}
 library(tidyverse, verbose = F)
+library(ggpubr, verbose = F)
 
-read_delim("../data/data_rill_erosion.txt", delim = "\t")
+rill_data <- read_delim("../data/data_rill_erosion.txt", delim = "\t")
+colnames(rill_data) <- c("Year", "Number", "Percentage")
+rill_plot <- ggplot(rill_data, aes(x = Year, y = Percentage)) +
+             geom_bar(stat = "identity", fill = "steelblue") +
+             ylab("Artigos plublicados (%)") + xlab("Ano de publicação") +
+             ggtitle("Rill erosion") +
+             theme_bw()
 
+conservation_data <- read_delim("../data/data_conservation_agriculture.txt", delim = "\t")
+colnames(conservation_data) <- c("Year", "Number", "Percentage")
+conservation_plot <- ggplot(conservation_data, aes(x = Year, y = Percentage)) +
+                     geom_bar(stat = "identity", fill = "steelblue") +
+                     ylab("Artigos plublicados (%)") + xlab("Ano de publicação") +
+                     ggtitle("Conservation agriculture") +
+                     theme_bw()
+
+ggarrange(rill_plot, conservation_plot, nrow = 1)
 ```
 
+Dos diferentes tipos de erosão, Poesen [-@POESEN20181] menciona que a erosão laminar e em sulcos são
+as mais estudadas [@VENTE20051; @VENTE20131]. O autor menciona grandes lacunas de conhecimento sobre
+estes processos, apesar de receberem maior atenção da literatura, especialmente nos subtrópicos e
+trópicos, onde tais estudos são menos abundantes. Como exemplo, os estudo de Nyssen _et al._
+[-@NYSSEN20051] revela que as relações empíricas entre intensidade da chuva e energia cinética,
+usadas para modelar a erosividade da chuva, não representam a realidade em planaltos da Etiópia.
+Consequentemente, em regiões tropicais similares, a erosividade de chuvas de baixa intensidade podem
+estar sendo subestimadas [@POESEN20181].
+
+Avaliando estudos publicados com as palavras-chave _"Rill erosion"_ no banco de dados _Web of
+Science_ (Figura \ref{fig:publications}), nota-se um aumento crescente sobre o tema. As novas
+tecnologias citadas acima, como VANTs, sensores e técnicas de geoprocessamente, podem ajudar no
+processo de aprimoramento do conhecimento sobre a eroão em sulcos. Processos erosivos são
+demasiadamente complexos, mas novos métodos estão sendo constantemente testados, visando viabilizar
+operacilamente e financeiramente análises precisas e rápidas. A união de novas técnicas e do acúmulo
+de conhecimento obtido no último século é necessária para alcançar a preservação satisfatória da
+saúde do solo, recurso essencial para a sociedade humana.
