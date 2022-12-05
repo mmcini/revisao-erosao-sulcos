@@ -91,7 +91,7 @@ _kickpoints_ alargam e aprofundam a cavidade aceleradamente ao longo da encosta,
 sulcos (Figura \ref{fig:knickpoint}).
 
 ![Exemplo de formação de um _knickpoint_ e subsequente desenvolvimento de sulco em experimento em
-laboratório. Adaptado de Merz _et al._ [-@MERZ19931] \label{fig:knickpoint}]("..\assets\knickpoint.jpg")
+laboratório. Adaptado de Merz _et al._ [-@MERZ19931]. \label{fig:knickpoint}]("..\assets\knickpoint.jpg")
 
 # Fatores determinantes
 
@@ -99,7 +99,7 @@ Apesar do simples conceito geral sobre o mecanismo de formação, as interaçõe
 formação dos sulcos não são dependentes apenas do microrelevo e do escoamento da água. Em realidade,
 agem em conjunto diferentes fatores que podem fazer da área mais ou menos propícia à expressar este
 tipo de erosão. Em especial, atributos do solo, topografia, organismos e uso antrópico submetidos à
-aleatoriedade do escoamento da água determinam a criação dos sulcos. É importante relevar que muitos
+intensidade e frequência das chuvas determinam a criação dos sulcos. É importante relevar que muitos
 outros fatores podem afetar a formação de sulcos; os citados e elaborados abaixo são aqueles que
 merecem atenção especial.
 
@@ -167,7 +167,7 @@ muito inferior, ou seja, escoamento muito mais concentrado e com maior poder ero
 \ref{fig:drainage}).
 
 ![Canais formados em superfície rugosa e plana após chuva de 180 mm sob declividade de 8%. Adaptado
-de Römkens _et al._ [-@ROMKENS20021] \label{fig:drainage}]("..\assets\drainage_density.jpg")
+de Römkens _et al._ [-@ROMKENS20021]. \label{fig:drainage}]("..\assets\drainage_density.jpg")
 
 Alguns estudos também apontam para o efeito da direção da encosta, denominada de _aspecto_ do
 relevo. A depender da direção dos ventos, a chuva preferencialmente cairá em certas direções mais
@@ -218,7 +218,7 @@ consequente erosão do agregado.
 ![Arquitetura interna de agregados de solos arados (acima) e de floresta (abaixo) por
 microtomografia de raios-X. À esquerda, partes cinzas representam sólidos; partes escuras, poros. Ao
 centro, representação da fase sólida representada por esferas. À direita, espaços porosos em 3D.
-Adaptado de Yudina _et al._ [-@YUDINA20221] \label{fig:aggregates}]("..\assets\aggregates.jpg")
+Adaptado de Yudina _et al._ [-@YUDINA20221]. \label{fig:aggregates}]("..\assets\aggregates.jpg")
 
 Além do efeito na agregação do solo, o preparo do solo afeta a rugosidade da superfície
 [@VAZQUEZ20101; @ZHANG20141]. Como mencionado em seção anterior, a rugosidade da superfície é um dos
@@ -229,12 +229,105 @@ ou em sulcos diminui inicialmente o escoamento superficial; porém, favorece a f
 que intensificam o processo erosivo.
 
 ![Efeito de diferentes tipos de preparo do solo na formação de sulcos. CT = plantio em linha; RT =
-plantio em sulcos; SS = superfície plana. Adaptado de Zhao _et al._ [-@ZHAO20181]
+plantio em sulcos; SS = superfície plana. Adaptado de Zhao _et al._ [-@ZHAO20181].
 \label{fig:tillage}]("..\assets\tillage.jpg")
 
 # Medição da erosão em sulcos
 
-Como são medidas.
+## Parâmetros a serem medidos
+
+Depois de formado o _knickpoint_, a água não apenas carva o canal com maior intensidade, a pequena
+derpressão que deu início ao sulco cede e migra para cima, formando novos canais tributários com
+novos _knickpoints_ (Figura \ref{fig:rill_formation}), que posteriormente se unem. Forma-se, então,
+uma rede de canais complexa [@BRUNTON20001]. A interação é complexa entre os diversos fatores que
+determinam a fomação, desenvolvimento e morfologia de tais redes de canais.
+
+![Formação de uma rede de sulcos. a) confluência da água de diferentes regiões tributárias para uma
+depressão central; b) força de cisalhamento da água ultrapassa o limite crítico e cria uma depressão
+(_knickpoint_); c) canal formado desaba e retrocede morro acima, ultrapassando o ponto de
+confluência do escoamento trinutário; d) novos _knickpoints_ se formam, dando origem à novos canais
+que se unirão formando uma rede. Adaptado de Brunton _et al._ [-@BRUNTON20001].
+\label{fig:rill_formation}]("..\assets\rill_formation.jpg")
+
+As redes de sulcos funcionam como miniaturas de um sistema de drenagem em uma bacia [@OU20211]. São
+usados, principalmente, parâmetros hidráulicos e morfológicos para mensurar as redes de drenagem, em
+conjunto com os fatores determinantes explicitados nas seções anteriores.
+
+Os parâmetros hidráulicos mais comuns no estudo de sulcos são a velocidade média do escoamento
+($V$), o número de Froude ($Fr$), que define a influência da gravidade no escoamento; o número de
+reynolds, que indica o padrão laminar ou turbulendo de escoamento ($Re$); e a tensão de cisalhamento
+($\tau$), que mede a força de fricção da água no caminho em que escoa (Equações \ref{eq:mean_v},
+\ref{eq:froude}, \ref{eq:reynolds} e \ref{eq:shear_stress}).
+
+\begin{equation}
+V = \alpha V_s
+\label{eq:mean_v}
+\end{equation}
+
+\begin{equation}
+Fr = \frac{V}{\sqrt{g h}}
+\label{eq:froude}
+\end{equation}
+
+\begin{equation}
+Re = \frac{V R}{v}
+\label{eq:reynolds}
+\end{equation}
+
+\begin{equation}
+\tau = \rho g h S
+\label{eq:shear_stress}
+\end{equation}
+
+\noindent
+Onde: $\alpha$ é o fator de correção e $V_s$ é velocidade de escoamento da superficial (Equação
+\ref{eq:mean_v}); $g$ é a aceleração da gravidade e $h$ é a profundidade do escoamento (Equação
+\ref{eq:froude}); $R$ é o raio hidráulico e $v$ o coeficiente de viscosidade (Equação
+\ref{eq:reynolds}); $\rho$ é a densidade da água e $S$ o seno da declividade (Equação
+\ref{eq:shear_stress}).
+
+Quanto à morfologia, muitos autores descrevem serem importantes os parêmetros: comprimento, largura
+e profundidade dos sulcos, área da seção transversal, densidade de sulcos, grau de dissecamento, e
+complixidade das redes [@ZHANG20161; @BEWKET20031; @BERGER20101; @QIN20181; @RAN20181; @BRUNO20081].
+Estes são apenas alguns dos muitos parâmetros testados para modelar a formação, desenvolvimento e
+perda de solo causada pelos sulcos.
+
+## Tecnologias para a medição
+
+A medição dos diversos parâmetros pode ser realizada por diversos métodos: dos mais simples e fáceis
+de operar, aos mais tecnologicamente avançados, de custo maior. Dentre os mais simples pode-se citar
+a fitas métricas e profilômetros (Figura \ref{fig:profiler}). São equipamentos usados para medir-se
+a área das seções transversair, comprimentos e larguras, de modo a obter os aspectos morfológicos
+dos sulcos [@CASALI20061. Operacionalmente são fáceis de se utilizar e o custo é baixo, mas o
+processo é laborioso e menos preciso [@OU20211].
+
+![Exemplo de medições de parâmetros de um sulco utilizando fitas métricas e profilômetros. Adaptado
+de Casalí _et al._ [-@CASALI20061]. \label{fig:profiler}]("..\assets\profiler.jpg")
+
+Hoje outros métodos mais avançados existem. Um exemplo é o escaneamento a laser. Equipamentos a
+laser usam a distância e ângulo entre a emissão e recepção dos raios para medir a posição de um
+grande número de pontos (_point cloud_). As medições possuem alta resolução: Vinci _et al._
+[-@VINCI20151] obteve resolução de 0.02 $\times$ 0.02 m (4 cm$^2$) utilizando este método para medir
+sulcos . Em contrapartida, o método é caro e o processamento dos dados não é simples. O estudo de
+Vinci _et al._ [-@VINCI20151], por exemplo, resultou em 35 milhões de pontos (Figura \ref{fig:tls}).
+
+![Escâner laser (a) utilizado na medição de sulcos e pontos resultantes do escaneamento (b).
+Adaptado de Vinci _et al._ [-@VINCI20151]. \label{fig:tls}]("..\assets\tls.jpg")
+
+Outros métodos mais recentes e populares incluem a medição dos sulcos através de veículos aéreos,
+seja por aerofotogrametria ou por veículos aéreos não tripulados (VANTs) [@ELTNER20151]. Os VANTs,
+especificamente, possuem a vantagem de serem flexíveis, podendo sobreavoar à alturas variáveis, a
+depender da necessidade. São altamente precisos e podem cobrir grandes áreas em pouco tempo.
+Malinowski _el al._ [-@MALINOWSKI20221] utilizou modelos digitais de elevação medidos através de
+VANTs com 1 cm$^2% de resolução espacial. Em conjunto com os dados altimétricos, utilizou os modelos
+_Random Forest_ e _knoledge-based_ (regras criadas manualmente por especialistas) para estimar
+parâmetros morfológicos dos sulcos, obtendo ótimos resultados de validação (Figura \ref{fig:uav}).
+Mas possuem, também, as limitações de custo [@OU20211]. São tecnologias práticas, porém com custo
+mais elevado que as tradicionais.
+
+![Uso de veículo aéreo não tripulado (VANT) no mapeamento e classificação de sulcos. a)
+Classificação _knowledge-based_; b) classificação por _Random Forest_; c) imagem aérea obtida pelo
+VANT. Adaptado de Malonowski _et al._ [-@MALINOWSKI20221]. \label{fig:uav}]("..\assets\uav.jpg")
 
 # Temporario
 
