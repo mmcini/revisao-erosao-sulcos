@@ -1,0 +1,413 @@
+---
+title: Erosão em sulcos
+subtitle: Definições, mecanismos e mapeamento
+
+date_info:
+    - Lavras, Minas Gerais
+    - Dezembro de 2022
+
+# info about the assignment course
+course_info:
+    - Conservação do Solo e da Água
+    - PCS502
+
+# student info
+author_info:
+    - Marcelo Mancini
+    - Doutorando em Ciência do Solo
+
+# document settings
+tables: true
+fontsize: 12pt
+indent_first: true
+indent: 1cm
+language: brazilian
+numbersections: true
+toc: true
+
+# references
+bibliography: references.bib
+csl: abnt.csl
+reference-section-title: Referências
+
+output: Sorte::assignment_template
+---
+
+# Introdução
+
+A erosão não é fenômeno novo. É um lento processo natural responsável por esculpir as paisagens
+continentais ao longo de milhões de anos. Entretanto, a capacidade do homem em intervir na paisagem
+através de suas práticas agricolas acelera a erosão, tornando-a potencialmente um problema grave.
+Terras originalmente férteis podem lenta ou rapidamente tornarem-se estéreis, a depender dos
+cuidados adotados quanto ao seu uso.
+
+A perda da capacidade produtiva é problema sério e antigo, historicamente responsável pela queda de
+civilizações inteiras. Desertos ao redor do mundo, como os ao norte da China, na antiga Pérsia (hoje
+Irã), norte da África e antiga Mesopotâmia (hoje Iraque) são evidências de tal passado, resultado do
+uso desenfreado do solo sem os devidos cuidados, causando seu esgotamento em longo termo.
+[@BERTONI20171].
+
+Não obstante o conhecimento obtido sobre processos erosivos ao longo dos séculos, a problemática da
+erosão não é menos grave atualmente. No inicio do século XX, estima-se que 1,6 bilhões de humanos
+habitavam o planeta. Ao final do século, a população ultapassara 6 bilhões [@LUTZ20021]. O grande
+crescimento populacional impulsionou a demanda por alimentos que, por consequência, promoveu grande
+intensificação das práticas agrícolas [@PIMENTEL19951; @STOATE20011]. Naturalmente, é crescente a
+necessidade de estudos sobre os fenômenos erosivos para a criação de práticas conservacionistas
+capazes de mitigá-los em meio à elevada demanda.
+
+A erosão do solo pode ser causada pelo vento, mas aquela causada pela água é mais intensa e danosa à
+sustentabilidade de sistemas agrícolas. Classicamente, a erosão hídrica é classificada quanto à sua
+forma de ocorrência. Quando finas camadas são removidas da superfície, diz-se que a erosão é
+**laminar**; quando pequenos canais de escoamento preferencial são formados, denomina-se de erosão
+**em sulcos**; quando os canais se alargam e aprofundam-se demasiadamente, dá-se o nome de
+**voçoroca** [@BERTONI20171]. Outras formas existem, mas estas três são as mais comuns em
+propriedades rurais.
+
+Enquanto a erosão laminar é perigosa por agir em grande áreas e ser de difícil detecção, quando
+formam-se canais capazes de direcionar e concentrar o fluxo da água, aumenta grandemente a energia
+com a qual a mesma carrega as partículas do solo [@SUN20131]. Tais canais, ou sulcos, não apenas são
+capazes de remover nutrientes do solo, mas, se não devidamente tratados, podem aprofundar-se e
+evoluir para grandes cavidades, chamadas de voçorocas, cujo dano pode ser irreparável [@OU20211].
+
+A erosão em sulcos é, portanto, o começo do agravamento da erosão hídrica do solo. O estágio inicial
+de severa degradação da propriedade rural. É sinal de convergência do fluxo da água, de aumento na
+velocidade da degradação do solo. O objetivo deste trabalho foi provover uma revisão sobre o
+processo de erosão hídrica em sulcos no mundo. Foi buscar na literatura o atual conhecimento sobre o
+tema. A seguir está apresentada uma compilação sobre os avanços obtidos e desafios enfrentados
+quanto às definições, mecanismos de formação e desenvolvimento, tecnologias de monitoramento e
+métodos de mitigação do processo de sulcamento do solo.
+
+# Mecanismo de formação da erosão em sulcos
+
+A erosão se inicia quando a força na enxurrada ultrapassa a resistência do solo, ou seja, quando a
+energia da água é maior que aquela responsável por segurar as partículas de solo nos agregados. A
+teoria mais aceita indica que os sulcos, especificamente, iniciam-se a partir de quebras de relevo,
+ou _knickpoints_ [@MERZ19931].
+
+Nenhuma superfície é inteiramente plana. Toda porção da paisagem possui pequenas variações locais, o
+microrelevo. A água que recai sobre tal rugosidade não escoa de modo uniforme e tende a convergir
+com o tempo, aumentando sua energia cinética e capacidade de remoção de partículas. No ponto de
+convergência formam-se os _knickpoints_, cavidades mais acentuadas no microrelevo, que denotam o
+começo da formação dos sulcos [@OU20211]. Posteriormente, a energia cinética que converge nos
+_kickpoints_ alargam e aprofundam a cavidade aceleradamente ao longo da encosta, dando origem aos
+sulcos (Figura \ref{fig:knickpoint}).
+
+![Exemplo de formação de um _knickpoint_ e subsequente desenvolvimento de sulco em experimento em
+laboratório. Adaptado de Merz _et al._ [-@MERZ19931]. \label{fig:knickpoint}]("..\assets\knickpoint.jpg")
+
+# Fatores determinantes
+
+Apesar do simples conceito geral sobre o mecanismo de formação, as interações responsáveis pela
+formação dos sulcos não são dependentes apenas do microrelevo e do escoamento da água. A intensidade
+e frequência das chuvas são sabidamente os fatores que mais impulsionam o aparecimento dos sulcos
+[@QIN20181]. Porém, o efeito da chuva ocorre em conjunto com diferentes fatores que podem fazer da
+área mais ou menos propícia à expressar este tipo de erosão. Em especial, atributos do solo,
+topografia, organismos e uso antrópico, submetidos à intensidade e frequência das chuvas,
+determinarão a criação e deselvolvimento dos sulcos. É importante relevar que muitos outros fatores
+podem afetar a formação de sulcos; os citados e elaborados abaixo são aqueles que merecem atenção
+especial.
+
+## Atributos do solo
+
+Para a formação de sulcos é necessário que a água escoe superficialmente com energia suficiente para
+superar a resistência do solos à erosão e criar canais de escoamento preferencial. Solos com
+estrutura muito resistente à desagregação, mais coesos ou que possuem infiltrabilidade muito boa são
+menos propensos a formarem sulcos. Naturalmente, a textura e mineralogia são fatores importantes a
+serem considerados. Ambos influenciam na estabilidade dos agregados e na infiltrabilidade do solo;
+pontanto, em sua susceptibilidade à erosão [@PAYKOY20151].
+
+A textura é relevante pois partículas maiores possuem menor área específica e, por consequência,
+interagem menos entre si. Possuem maior volume poroso entre-prartículas, mas são pouco coesas pela
+baixa área superficial e, logo, formam estruturas fracas, sendo mais fracamente retidas pelo solo.
+Partículas mais finas, como a argila, são mais facilmente carreadas, porém podem formar estruturas
+mais coesas, sendo retidas mais fortemente pelo solo [@YUDINA20221].
+
+O que determina o comportamento das argilas é sua mineralogia [@TOTSCHE20181]. Argilas nas quais
+predominam minerais menos intemperizados (e.g., montmorilonita, vermiculita) se dispersam mais em
+água. Podem, também, ser expansivas e formarem estruturas menos resistentes à desagregação, sendo
+mais susceptíveis à erosão [@BRADFORD19991]. Em contrapartida, argilas ricas em óxidos de ferro e
+alumínio desenvolvem estruturas mais resistentes, o que ocorre tipicamente em solos intemperizados
+comuns no Brasil (Latossolos e alguns Argissolos) [@SUN20131].
+
+O poder floculante dos óxi-hidróxidos de ferro alumínio pode resultar em estrutura arredondada e
+muito estável, conferindo ao solo grande volume poroso, infiltrabilidade e, ao mesmo tempo,
+resistência à desagregação [@YUDINA20181]. É a chamada estrutura granular, comum em Latossolos
+Vermelhos quando ricos em gibbsita. Um atributo útil para indicar a mineralogia é a _atividade da
+argila_ [@BERTOL20191]. Solos com valores acima de 27 $cmol_c \; kg^{-1}$ são considerados solo
+com argila de alta atividade; valores abaixo, solos com baixa atividade [@SANTOS20181]. Como
+referência, valores comuns para solos intemperizados no Brasil variam entre 3 e 5 $cmol_c \;
+kg^{-1}$.
+
+Em geral, estruturas bem desenvolvidas e de consistência firme indicam mineralogia mais
+intemperizada, menos susceptível a processos erosivos [@BERTOL20191]. Solos que apresentam-se
+arenosos ou muito argilosos, porém com caráter expansivo quando úmidos, ou de estrutura muito
+fracamente desenvolvida, pouco consistente ou maciça, são solos que apresentam mineralogia menos
+intemperizada, sendo mais erodíveis.
+
+## Topografia
+
+Através do impacto das gotas de chuva a água desagrega as partículas de solo e, pela formação de
+enxurradas, as partículas são transportadas. Naturalmente, parâmetros topográficos influenciam na
+velocidade com a qual a água escoa e portando na energia que a mesma possuirá para erodir o solo.
+Atributos topográficos como declividade, comprimento e tamanho da encosta relacionam-se diretamente
+com a erodibilidade do solo [@WISCHMEYER19781].
+
+Apesar da energia do impacto das gotas ser o principal agente erosivo, no caso da erosão em sulcos o
+escoamento superficial possui destaque. É a enxurrada, submetida à rugosidade do relevo, que
+converge e canaliza a água, potencializando seu poder erosivo pela criação de sulcos que podem
+evoluir para voçorocas. O comprimento da encosta é, portanto, um fator importante no processo de
+formação de sulcos. Quanto maior o caminho da água na encosta, maior a chance de convergência do
+escoamento e maior sua energia cinética, resultando em mais _knickpoints_ e, consequentemente, em
+mais sulcos.
+
+A declividade também influencia significativamente nos processos erosivos. Maior declividade implica
+em maior velocidade da água em menores distâncias, intensificando o sulcamento. Contudo, estudos
+demonstram que, em conjunto com a delividade, a rugosidade do relevo possui papel chave na erosão em
+sulcos. Römkens _et al._ [-@ROMKENS20021] testou em laboratório, sob chuva simulada, o sulcamento em
+solos configurados com diferentes rugosidades em três declividades: 2%, 8% e 17%. As duas maiores
+declividades apresentaram maior perda de solo e sulcamento. Entretanto, o fator mais influente fora
+a rugosidade da superfície. Superfícies mais rugosas apresentaram densidade de canais muito
+inferior, ou seja, escoamento muito mais concentrado e com maior poder erosivo (Figura
+\ref{fig:drainage}).
+
+![Canais formados em superfície rugosa e plana após chuva de 180 mm sob declividade de 8%. Adaptado
+de Römkens _et al._ [-@ROMKENS20021]. \label{fig:drainage}]("..\assets\drainage_density.jpg")
+
+Alguns estudos também apontam para o efeito da direção da encosta, denominada de _aspecto_ do
+relevo. A depender da direção dos ventos, a chuva preferencialmente cairá em certas direções mais
+que em outras. A concentração de chuvas em faces determinadas do relevo promove sulcamento mais
+intenso onde há maior incidência da chuva. Beullens _et al._ [@BEULLENS20141] observou na Bélgica e
+ao norte da França que a ocorrência de sulcos é maior nas faces sudoeste e oeste do relevo. A
+explicação dos autores é que ventos de sudoeste são dominantes na região noroeste da Europa,
+trazendo chuva do Oceano Atlântico, causando potencial erosivo maior na direção preferencial do
+vento. É mais uma confirmação da forte interação entre atributos topográficos e os fenômenos
+erosivos. Os autores também citam influência potencial da declividade e, do assunto a seguir, da
+cobertura vegetal [@BEULLENS20141].
+
+## Organismos
+
+Como dito anteriormente, a energia cinética do impacto da gota da chuva e da enxurrada ao longo da
+encosta são fatores determinantes da erosão em geral, em especial a energia do escoamento
+superficial ao longo da encosta no caso da formação de sulcos. Quando tal energia ultrapassa a
+resistência do solo, as partículas desagregam-se e são transportadas relevo abaixo. Os organismos do
+solo protegem-no contra este processo, atuando principalmente em três frentes: na dissipação da
+energia do impacto das gotas e do escoamento, no aumento da resistência do solo à desagregação e na
+melhora da capacidade de infiltração. Os dois últimos devido ao aporte de matéria orgânica.
+
+A importância da cobertura do solo é expressa em diversos modelos de erosão, inclusive no mais
+popular: a Equação Universal de Perda de Solo --_USLE_-- através do fator _C_ [@VRIELING20061;
+@WISCHMEYER19781]. É quase intuitivo entender que a presença de cobertura vegetal protege o solo do
+efeito da chuva. A biomassa dissipa a energia do impacto da chuva que atingiria diretamente o
+agregado e serve de barreira para a enxurrada, diminuindo sua velocidade.
+
+Adicionalmente, além do efeito macroscópico, a presença de vegetação aumenta a biomassa do sistema,
+elevando a atividade microbiana. O aumento do teor de matéria orgânica no solo ajuda na prevenção do
+sulcamento [@TOTSCHE20181]. A matéria orgânica promove maior agregação em forma de macro-agregados
+com alta porosidade [@OU20211; @YUDINA20221] (Figura \ref{fig:aggregates}). Elevam tanto à
+resistência à desagregação como a infiltrabilidade, retardando a canalização do escoamento e,
+portanto, a formação de sulcos.
+
+## Uso antrópico
+
+A principal importância do estudo de processos erosivos, por definição de ocorrência natural, é
+justamente aprender como reduzir os impactos do uso antrópico do solo, que acelera o processo
+natural de dissecação da paisagem. Para tanto, é necessário entender tanto os mecanismos da erosão
+acelerada, como a natureza do impacto em si. O impacto mais recorrente deriva do preparo incorreto
+do solo sem o uso de práticas conservacionistas.
+
+Yudina _et al._ [@YUDINA20221] realizou a tomografia de agregados de floresta e solo cultivado e
+observou que nos solos de floresta os agregados possuem volume muito mais elevado de poros muito
+menores (microagreagação interna) (Figura \ref{fig:aggregates}). Tais propriedades conferiram ao
+solo de floresta estabilidade maior em água, ou seja, maior resistência à dispersão em água e
+consequente resistência à erosão do agregado.
+
+![Arquitetura interna de agregados de solos cultivados (acima) e de floresta (abaixo) por
+microtomografia de raios-X. À esquerda, partes cinzas representam sólidos; partes escuras, poros. Ao
+centro, representação da fase sólida representada por esferas. À direita, espaços porosos em 3D.
+Adaptado de Yudina _et al._ [-@YUDINA20221].
+\label{fig:aggregates}]("..\assets\aggregates.jpg"){width=90%}
+
+Além do efeito na agregação do solo, o preparo do solo afeta a rugosidade da superfície
+[@VAZQUEZ20101; @ZHANG20141]. Como mencionado em seção anterior, a rugosidade da superfície é um dos
+fatores mais determinantes no desenvolvimento de sulcos [@ROMKENS20021] (Figura \ref{fig:drainage}).
+Estudos mostram claramente a maior propensão à formação de sulcos em solos arados (Figura
+\ref{fig:tillage}). Zhao _et al._ [-@ZHAO20181] observou que o preparo do solo em linhas de contorno
+ou em sulcos diminui inicialmente o escoamento superficial; porém, favorece a formação de sulcos,
+que intensificam o processo erosivo. Os resultados denotam a necessidade de adoção de práticas
+conservacionistas para a devida preservacão da saude do solo.
+
+![Efeito de diferentes tipos de preparo do solo na formação de sulcos. CT = plantio em linha; RT =
+plantio em sulcos; SS = superfície plana. Adaptado de Zhao _et al._ [-@ZHAO20181].
+\label{fig:tillage}]("..\assets\tillage.jpg")
+
+# Medição da erosão em sulcos
+
+## Parâmetros a serem medidos
+
+Depois de formado o _knickpoint_, a água não apenas carva o canal com maior intensidade, a pequena
+derpressão que deu início ao sulco cede e migra para cima, formando novos canais tributários com
+novos _knickpoints_ (Figura \ref{fig:rill_formation}), que posteriormente se unem. Forma-se, então,
+uma rede de canais complexa [@BRUNTON20001]. A interação é complexa entre os diversos fatores que
+determinam a fomação, desenvolvimento e morfologia de tais redes de canais.
+
+![Formação de uma rede de sulcos. a) confluência da água de diferentes regiões tributárias para uma
+depressão central; b) força de cisalhamento da água ultrapassa o limite crítico e cria uma depressão
+(_knickpoint_); c) canal formado desaba e retrocede morro acima, ultrapassando o ponto de
+confluência do escoamento trinutário; d) novos _knickpoints_ se formam, dando origem à novos canais
+que se unirão formando uma rede. Adaptado de Brunton _et al._ [-@BRUNTON20001].
+\label{fig:rill_formation}]("..\assets\rill_formation.jpg")
+
+As redes de sulcos funcionam como miniaturas de um sistema de drenagem em uma bacia [@OU20211]. São
+usados, principalmente, parâmetros hidráulicos e morfológicos para mensurar as redes de drenagem, em
+conjunto com os fatores determinantes explicitados nas seções anteriores.
+
+Os parâmetros hidráulicos mais comuns no estudo de sulcos são a velocidade média do escoamento
+($V$), o número de Froude ($Fr$), que define a influência da gravidade no escoamento; o número de
+Reynolds, que indica o padrão laminar ou turbulendo de escoamento ($Re$); e a tensão de cisalhamento
+($\tau$), que mede a força de fricção da água no caminho em que escoa (Equações \ref{eq:mean_v},
+\ref{eq:froude}, \ref{eq:reynolds} e \ref{eq:shear_stress}).
+
+\begin{equation}
+V = \alpha V_s
+\label{eq:mean_v}
+\end{equation}
+
+\begin{equation}
+Fr = \frac{V}{\sqrt{g h}}
+\label{eq:froude}
+\end{equation}
+
+\begin{equation}
+Re = \frac{V R}{v}
+\label{eq:reynolds}
+\end{equation}
+
+\begin{equation}
+\tau = \rho g h S
+\label{eq:shear_stress}
+\end{equation}
+
+Onde: $\alpha$ é o fator de correção e $V_s$ é velocidade de escoamento da superficial (Equação
+\ref{eq:mean_v}); $g$ é a aceleração da gravidade e $h$ é a profundidade do escoamento (Equação
+\ref{eq:froude}); $R$ é o raio hidráulico e $v$ o coeficiente de viscosidade (Equação
+\ref{eq:reynolds}); $\rho$ é a densidade da água e $S$ o seno da declividade (Equação
+\ref{eq:shear_stress}).
+
+Quanto à morfologia, muitos autores descrevem serem importantes os parêmetros: comprimento, largura
+e profundidade dos sulcos, área da seção transversal, densidade de sulcos, grau de dissecacão, e
+complixidade das redes [@ZHANG20161; @BEWKET20031; @BERGER20101; @QIN20181; @RAN20181; @BRUNO20081].
+Estes são apenas alguns dos muitos parâmetros testados para modelar a formação, desenvolvimento e
+perda de solo causada pelos sulcos.
+
+## Tecnologias para a medição e mapeamento de sulcos
+
+A medição dos parâmetros morfologicos e hidraulicos pode ser realizada por diversos métodos: dos
+mais simples e fáceis de operar, aos mais tecnologicamente avançados, de custo maior. Dentre os mais
+simples pode-se citar a fitas métricas e perfilômetros (Figura \ref{fig:profiler}). São equipamentos
+usados para medir-se a área das seções transversais, comprimentos e larguras, de modo a obter os
+aspectos morfológicos dos sulcos [@CASALI20061]. Operacionalmente são fáceis de se utilizar e o
+custo é baixo, mas o processo é laborioso e menos preciso [@OU20211].
+
+![Exemplo de medições de parâmetros de um sulco utilizando fitas métricas e perfilômetros. Adaptado
+de Casalí _et al._ [-@CASALI20061]. \label{fig:profiler}]("..\assets\profiler.jpg")
+
+Hoje, outros métodos mais avançados existem. Um exemplo é o escaneamento a laser. Equipamentos a
+laser usam a distância e ângulo entre a emissão e recepção dos raios para medir a posição de um
+grande número de pontos (_point cloud_). As medições possuem alta resolução: Vinci _et al._
+[-@VINCI20151] obteve resolução de 0.02 $\times$ 0.02 m (4 cm$^2$) utilizando este método para medir
+sulcos . Em contrapartida, o método é caro e o processamento dos dados não é simples. O estudo de
+Vinci _et al._ [-@VINCI20151], por exemplo, resultou em 35 milhões de pontos (Figura \ref{fig:tls}).
+
+![Escâner laser (a) utilizado na medição de sulcos e pontos resultantes do escaneamento (b).
+Adaptado de Vinci _et al._ [-@VINCI20151]. \label{fig:tls}]("..\assets\tls.jpg")
+
+Outros métodos mais recentes e populares incluem a medição dos sulcos através de veículos aéreos,
+seja por aerofotogrametria ou por veículos aéreos não tripulados (VANTs) [@ELTNER20151]. Os VANTs,
+especificamente, possuem a vantagem de serem flexíveis, podendo sobreavoar alturas variáveis, a
+depender da necessidade. Sensores acoplados aos VANTs podem ser altamente precisos e podem cobrir
+grandes áreas em pouco tempo. Malinowski _el al._ [-@MALINOWSKI20221] utilizou modelos digitais de
+elevação medidos através de VANTs com 1 cm$^2$ de resolução espacial. Em conjunto com os dados
+altimétricos, utilizou os modelos _Random Forest_ e _knowledge-based_ (regras criadas manualmente
+por especialistas) para estimar parâmetros morfológicos dos sulcos, obtendo ótimos resultados de
+validação (Figura \ref{fig:uav}). Mas possuem, também, as limitações de custo [@OU20211]. São
+tecnologias práticas, porém com custo mais elevado que as tradicionais.
+
+![Uso de veículo aéreo não tripulado (VANT) no mapeamento e classificação de sulcos. a)
+Classificação _knowledge-based_; b) classificação por _Random Forest_; c) imagem aérea obtida pelo
+VANT. Adaptado de Malonowski _et al._ [-@MALINOWSKI20221].
+\label{fig:uav}]("..\assets\uav.jpg"){width=85%}
+
+# Práticas de mitigação
+
+Em geral, todas as práticas conservacionistas que visam reduzir processos erosivos é benéfico para a
+mitigação da ocorrência da erosão em sulcos. Para a erosão em sulcos, em especial, impedir que a
+água escoe por longas distâncias e proteger o solo contra o impacto das gotas, evitando a
+desagregação, são fatores mais relevantes [@WOO19971] (Figura \ref{fig:conservation}).
+
+Para tanto, a cobertura do solo com palhada ou uso plantas de cobertura dissipa a energia do impacto
+das gotas, além de ajudar a frear a enxurrada, servindo como obstáculo [@BERTONI20171]. Por outro
+lado, a adoção de terraços diminui o comprimento da encosta, fragmentando-a em porções menores entre
+terraços [@BERTOL20191]. Consequentemente, o caminho que a água percorre desde quando atinge o solo,
+até o terraço mais próximo é menor se comparado ao comprimento da encosta inteira. O menor caminho
+confere menos energia à água para o carreamento de partículas, desfavorecendo a convergência da
+enxurrada e a criação de _knickpoints_.
+
+![Exemplos de práticas conservacionistas. Cobertura morta (esquerda) e terraceamento (direita).
+\label{fig:conservation}]("..\assets\conservation_practices.jpg")
+
+# Importância e evolução de trabalhos sobre erosão em sulcos
+
+Os solos são cruciais para a vida humana, sendo os responsáveis por serviços ecossistêmicos como:
+produção de fibras, alimento e biomassa, filtragem e armazenamento da água, habitat para a flora e
+fauna, fonte de materiais primários, alicerce da construção civil, além de herança cultural,
+carregando artefatos e traços históricos da humanidade [@AKSOY20171]. A degradação do solo por
+erosão impede o solo de realizar seu papel, imapctando negativamente a humanidade que dele depende
+[@POESEN20181]. Notóriamente, principalmente devido à intensificação da produção agrícola, a
+preocupação com a manutenção da saúde do solo vem crescendo nos últimos anos.
+
+No estudo de Knowler _et al._ [-@KNOWLER20071], os autores mencionam que poucos na literatura usavam
+o nome "agricultura conservacionista" quando o estudo em questão fora publicado, em 2007. Contudo,
+comparando-se 2007 e o presente ano, trabalhos com as palavras-chave _"Conservation agriculture"_
+saltaram de aproximadamente 1000 para mais de 8000 artigos segundo o portal _Web of Science_
+(Figura \ref{fig:publications}).
+
+```{r, publications, echo = F, warning = F, message = F, out.width = "90%", fig.cap = "Publicações dos últimos 30 anos com as palavras-chave: \"Rill erosion\" e \"Conservation agriculture\" contidas no banco de dados Web of Science."}
+library(tidyverse, verbose = F)
+library(ggpubr, verbose = F)
+
+rill_data <- read_delim("../data/data_rill_erosion.txt", delim = "\t")
+colnames(rill_data) <- c("Year", "Number", "Percentage")
+rill_plot <- ggplot(rill_data, aes(x = Year, y = Percentage)) +
+             geom_bar(stat = "identity", fill = "steelblue") +
+             ylab("Artigos plublicados (%)") + xlab("Ano de publicação") +
+             ggtitle("Rill erosion") +
+             theme_bw()
+
+conservation_data <- read_delim("../data/data_conservation_agriculture.txt", delim = "\t")
+colnames(conservation_data) <- c("Year", "Number", "Percentage")
+conservation_plot <- ggplot(conservation_data, aes(x = Year, y = Percentage)) +
+                     geom_bar(stat = "identity", fill = "steelblue") +
+                     ylab("Artigos plublicados (%)") + xlab("Ano de publicação") +
+                     ggtitle("Conservation agriculture") +
+                     theme_bw()
+
+ggarrange(rill_plot, conservation_plot, nrow = 1)
+```
+
+Dos diferentes tipos de erosão, Poesen [-@POESEN20181] menciona que a erosão laminar e em sulcos são
+as mais estudadas [@VENTE20051; @VENTE20131]. O autor menciona grandes lacunas de conhecimento sobre
+estes processos, apesar de receberem maior atenção da literatura, especialmente nos subtrópicos e
+trópicos, onde tais estudos são menos abundantes. Como exemplo, o estudo de Nyssen _et al._
+[-@NYSSEN20051] revela que as relações empíricas entre intensidade da chuva e energia cinética,
+usadas para modelar a erosividade da chuva, não representam a realidade em planaltos da Etiópia.
+Consequentemente, em regiões tropicais similares, a erosividade de chuvas de baixa intensidade pode
+estar sendo subestimado [@POESEN20181].
+
+Avaliando estudos publicados com as palavras-chave _"Rill erosion"_ no banco de dados _Web of
+Science_ (Figura \ref{fig:publications}), nota-se um aumento crescente sobre o tema. As novas
+tecnologias citadas acima, como VANTs, sensores e técnicas de geoprocessamente, podem ajudar no
+processo de aprimoramento do conhecimento sobre a eroão em sulcos. Processos erosivos são
+demasiadamente complexos, mas novos métodos estão sendo constantemente testados, visando viabilizar
+operacilamente e financeiramente análises precisas e rápidas. A união de novas técnicas com o acúmulo
+de conhecimento obtido no último século é necessária para alcançar a preservação satisfatória da
+saúde do solo, recurso essencial para a sociedade humana pesente e futura.
